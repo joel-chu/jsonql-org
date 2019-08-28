@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "docsify serve ./docs"
+    "open": "node ./index.js",
+    "start": "docsify serve ./docs & npm run open"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/joel-chu/jsonql-org/issues"
   },
-  "homepage": "https://github.com/joel-chu/jsonql-org#readme"
+  "homepage": "https://github.com/joel-chu/jsonql-org#readme",
+  "devDependencies": {
+    "open": "^6.4.0"
+  }
 }

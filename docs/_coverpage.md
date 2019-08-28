@@ -2,4 +2,6 @@
 
 # What is JSONQL?
 
-> JSON **Query** **Load** and that's it!
+> JSON **Query** **Load** <br />that's it ... and more, of course
+
+![color](#CCCCCC)
