@@ -23,9 +23,14 @@ For example:
 
 ```js
 // server side node.js using our jsonql koa middleware
-// using ES6
+// using CJS
 
-export default function saySomething(msg) {
+/**
+ * You must write correct jsdoc comment, otherwise jsonql contract generator will throw error
+ * @param {string} msg input
+ * @return {string} output
+ */
+module.exports = function saySomething(msg) {
   return `I got your message: ${msg}`
 }
 ```
@@ -45,4 +50,4 @@ jsonqlClient()
   })
 ```
 
-To better understand how all this put together, please clone this [demo repo](git@github.com:joel-chu/jsonql-demo.git) and play around with it.
+To better understand how all this put together, please clone this [demo repo](https://github.com/joel-chu/jsonql-demo) and play around with it.
