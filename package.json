@@ -1,0 +1,26 @@
+{
+  "name": "jsonql-org",
+  "version": "1.0.0",
+  "description": "jsonql.org website using docsify",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "docsify serve ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joel-chu/jsonql-org.git"
+  },
+  "keywords": [
+    "jsonql"
+  ],
+  "author": "Joel Chu <newbranltd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joel-chu/jsonql-org/issues"
+  },
+  "homepage": "https://github.com/joel-chu/jsonql-org#readme"
+}
