@@ -1,6 +1,3 @@
-- Introduction
-  - [Basic](basic.md)
-
 - Setup with Koa
   - [Quick start](koa-quick-start.md)
   - [Configuration](koa-configuration.md)
