@@ -33,7 +33,7 @@ and it will store the generated contracts in `<root>/contracts`
 | logoutHandlerName | `enableAuth:true` the default logout handler file name | `String` | `logout` |
 | validatorHandlerName | `enableAuth:true` this function is for checking the incoming header to see if the jwt token is correct | `String` | `validator` |
 | enableWebConsole | When set true, you can open your browser with `yourdomain/jsonql` and a generated documentation of all the resolvers will be available, only use this during development | `Boolean` | `false` |
-| jsType | By default, we expect you to write your resolver in common js style, but you can pass `es` to this property and then you can write your resolver using ES6 syntax. Please note we are using the `esm` module to import your code to our common js code based, also several extra files will get generated inside the resolvers folder | `String` | `cjs` |
+| jsType | By default, we expect you to write your resolver in common js style, but you can pass `es` to this property and then you can write your resolver using ES6 syntax. Please note we are using the `esm` module to import your code to our common js code based, also several extra files will get generated inside the resolvers folder | `String<cjs,es>` | `cjs` |
 | clientConfig | You can pass option to configure another jsonql API using this property. Please see the resolver chapter for more information | `Array<object>` | `[]` |
 
 ---

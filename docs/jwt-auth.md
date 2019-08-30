@@ -33,5 +33,4 @@ module.exports = function login(username, password) {
 ```
 
 Of course, you can use other way to protect your resolver - BUT highly NOT recommended.
-Of course, you can use other way to protect your resolver - BUT highly NOT recommended.
-Authorisation will be a chapter on it's own.
+Authorization will be a chapter on it's own.

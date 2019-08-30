@@ -118,7 +118,7 @@ Open the `app.js` in your editor, and add the following code:
       // lets make this client available to other code outside
       // of this IIFE
       window.jsonqlClientInstance = client;
-      // now let's take a hello world
+      // let's do a hello world
       client.query.helloWorld()
         .then(function(msg) {
           alert(msg)
