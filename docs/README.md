@@ -1,4 +1,4 @@
-# jsonql introduction
+# Introduction
 
 > This is a huge collection of modules that help you to create API quickly.
 
@@ -50,4 +50,4 @@ jsonqlClient()
 
 To better understand how all this put together, please clone this [demo repo](https://github.com/joel-chu/jsonql-demo) and play around with it.
 
-We also have a [step by step guide](/koa-quick-start) to show you how to setup jsonql with Koa from scratch.
+We also have a [step by step guide](/koa-quick-start) to show you how to setup jsonql with Koa from scratch (with the help from [server-io-core](https://npmjs.org/packages/server-io-core)).
