@@ -49,3 +49,5 @@ jsonqlClient()
 ```
 
 To better understand how all this put together, please clone this [demo repo](https://github.com/joel-chu/jsonql-demo) and play around with it.
+
+We also have a [step by step guide](/koa-quick-start) to show you how to setup jsonql with Koa from scratch.

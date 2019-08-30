@@ -72,5 +72,4 @@ module.exports = function saveSomething(payload, id) {
 
 ```
 
-If you notice, we also use named function style to write our resolver. And there is a reason for that.
-We will explain more in later chapters.
+If you notice the way we use named function style to write our resolver; there is a reason for it, and We will explain more in later chapters.

@@ -1,5 +1,5 @@
 - Setup with Koa
-  - [Quick start](koa-quick-start.md)
+  - [Step by step](koa-quick-start.md)
   - [Configuration](koa-configuration.md)
   - [Resolvers](nodejs-resolvers.md)
   - [Auth](jwt-auth.md)
