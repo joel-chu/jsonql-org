@@ -6,4 +6,5 @@
   - [Socket](nodejs-socket.md)
 
 - Modules
-  - [List](module-list.md)
+  - [Public](module-list-public.md)
+  - [Private](module-list-private.md)
