@@ -10,6 +10,9 @@ in Typescript. And it will replace the old module gradually.
 
 You should know what it does from the name, [manual here](https://npmjs.com/package/@jsonql/event)
 
+This module is not actually require direct installation. All the functionality are integrated into the client side
+code. But since we completely rewritten the code base, hence publish it under the `@jsonql` context.
+
 ---
 
 More are coming soon

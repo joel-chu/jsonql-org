@@ -4,7 +4,9 @@
   - [Resolvers](nodejs-resolvers.md)
   - [Auth](jwt-auth.md)
   - [Socket](nodejs-socket.md)
+  - [Testing](node-ava-test.md)
 
 - Modules
   - [Public](module-list-public.md)
   - [Private](module-list-private.md)
+  - [Utils](jsonql-utils.md)
